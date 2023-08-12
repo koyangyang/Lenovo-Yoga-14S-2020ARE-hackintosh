@@ -31,7 +31,7 @@ Lenovo Yoga14s 4800U macOS `monterey`版本的 EFI 文件
 
 ## 安装步骤
 
-### 1. 解锁 BIOS 高级菜单
+### 1. 修改 BIOS 
 
 关闭`bios`中的 快速启动 安全启动
 
