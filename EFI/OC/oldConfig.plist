@@ -32,14 +32,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-NVME-DISABLE.aml</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-NVME-DISABLE.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>SSDT-PLUG-ALT.aml</string>
                     <key>Enabled</key>
                     <true/>
@@ -926,42 +918,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AMDRyzenCPUPowerManagement.kext</string>
-                    <key>Comment</key>
-                    <string>V0.7.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>SMCAMDProcessor.kext</string>
-                    <key>Comment</key>
-                    <string>V1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SMCAMDProcessor</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -2254,7 +2210,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 -vi2c-force-polling</string>
+                    <string>keepsyms=1 -vi2c-force-polling</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>run-efi-updater</key>
@@ -2294,13 +2250,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string></string>
+                <string>C02011600GU00008C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data></data>
+                <data>C9XI/ex5</data>
                 <key>SpoofVendor</key>
                 <false/>
                 <key>SystemMemoryStatus</key>
@@ -2308,9 +2264,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,3</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>C02CFUYFP3XY</string>
                 <key>SystemUUID</key>
-                <string></string>
+                <string>79CC92B9-907F-44F3-BAB4-49666A8C5BD0</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
