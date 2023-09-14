@@ -48,14 +48,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-SBUS-MCHC.aml</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SBUS-MCHC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>SSDT-USBX.aml</string>
                     <key>Enabled</key>
                     <true/>
@@ -483,7 +475,7 @@
                     <key>Comment</key>
                     <string>V1.0.0 | NootedRed.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/NootedRed</string>
                     <key>MaxKernel</key>
@@ -2174,7 +2166,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 -vi2c-force-polling</string>
+                    <string>-v keepsyms=1 -vi2c-force-polling shikigva=40 revblock=media</string>
                     <key>csr-active-config</key>
                     <data>7w8AAA==</data>
                     <key>run-efi-updater</key>
